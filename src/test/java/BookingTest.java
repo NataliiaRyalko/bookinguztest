@@ -23,7 +23,7 @@ public class BookingTest extends BaseTest {
 //        homePage.setFrom("Киев");
 //        homePage.setTo("Львов");
 //        homePage.submit();
-        homePage.getTrains().get(2).clickOnTitle();
+        homePage.getTrains().get(0).clickOnTitle();
         Thread.sleep(3000);
     }
 
